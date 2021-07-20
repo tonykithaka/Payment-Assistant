@@ -1,0 +1,10 @@
+Target dependency graph (4 targets)
+Flutter in Pods
+local_auth in Pods, depends on:
+Flutter in Pods (explicit)
+shared_preferences in Pods, depends on:
+Flutter in Pods (explicit)
+Pods-Runner in Pods, depends on:
+Flutter in Pods (explicit)
+local_auth in Pods (explicit)
+shared_preferences in Pods (explicit)

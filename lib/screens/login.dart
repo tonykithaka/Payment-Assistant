@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:local_auth/local_auth.dart';
@@ -52,9 +54,19 @@ class _LoginState extends State<Login> {
       print(e);
     }
 
-    setState(() {
-      _availableBiometrics = availableBiometric;
-    });
+    if (Platform.isIOS) {
+      if (availableBiometric.contains(BiometricType.face)) {
+        setState(() {
+          _availableBiometrics = availableBiometric;
+        });
+      } else if (availableBiometric.contains(BiometricType.fingerprint)) {
+        setState(() {
+          _availableBiometrics = availableBiometric;
+        });
+      }
+    }
+
+
   }
 
   //Main function that will allow user to authenticate

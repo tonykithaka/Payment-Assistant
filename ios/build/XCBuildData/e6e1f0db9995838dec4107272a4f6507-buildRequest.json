@@ -1,0 +1,48 @@
+{
+  "buildCommand" : "prepareForIndexing",
+  "configuredTargets" : [
+    {
+      "guid" : "36419fb9abab5e4ea6197775b0ebe25c9da425bb6d6d5d8dbb95e4afffb82217"
+    },
+    {
+      "guid" : "36419fb9abab5e4ea6197775b0ebe25c312b4bc59bbbe2c06c205bf4da6737f5"
+    },
+    {
+      "guid" : "36419fb9abab5e4ea6197775b0ebe25ca60478de6464016ca4bce64a52fed960"
+    },
+    {
+      "guid" : "36419fb9abab5e4ea6197775b0ebe25c58e43d378bdedc3ceb60c1adb0f770ac"
+    }
+  ],
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/tonykithaka/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/tonykithaka/Library/Developer/Xcode/DerivedData/Pods-bozeskznnlflnyevkydhfmcxqzqi/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/tonykithaka/Library/Developer/Xcode/DerivedData/Pods-bozeskznnlflnyevkydhfmcxqzqi/Index/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Release",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : false,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : false
+}
